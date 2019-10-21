@@ -61,10 +61,19 @@ font-weight: 400;
 
 font-style: normal;*/
 
+/*
+font-family: 'Canela Web';
+   font-weight: normal;
+   font-style: normal; */
+
 @font-face {
-  font-family: "CanelaWeb-Regular";
-  src: url("../../assets/fonts/CanelaWeb-Regular.ttf") format("truetype");
-}
+       font-family: 'Canela Web';
+       src: url(../assets/fonts/canela-regular/CanelaWeb-Regular.woff2) format('woff2'),
+           url(../assets/fonts/canela-regular/CanelaWeb-Regular.woff) format('woff'),
+           url(../assets/fonts/canela-regular/CanelaWeb-Regular.ttf) format('truetype');
+       font-weight: normal;
+       font-style: normal;
+ }
 
 
 body {
@@ -76,12 +85,12 @@ body {
 
 main {
 	margin: 0 auto;
-	max-width: 35em;
-	padding: 1em;
+	padding: 2em;
 }
 
 nav {
   position: absolute;
+  padding-top: 1em;
 }
 
 footer {
@@ -89,6 +98,7 @@ footer {
   font-weight: 300;
   font-style: italic;
   font-size: 12pt;
+  padding-top: 4em;
 }
 
 .centered {
@@ -99,6 +109,14 @@ footer {
 	font-family: neue-haas-grotesk-text, sans-serif;
   font-style: normal;
 	font-weight: 400;
+}
+
+.canela {
+  font-family: 'Canela Web';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60pt;
+  color: #D5861C;
 }
 
 .tableName {
@@ -119,4 +137,22 @@ footer {
 .contents {
   padding-top: 14em;
   padding-bottom: 2em;
+}
+
+.bodyType{
+  font-family: roboto-mono, monospace;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+.bodyDesigner {
+ font-size: 16pt;
+ text-transform: uppercase;
+}
+
+.subpageCard {
+  min-height: 600px;
+  margin: 0px;
 }
