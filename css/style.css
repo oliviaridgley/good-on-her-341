@@ -156,3 +156,17 @@ nav {
   margin: 0;
   min-height: 600px;
 }
+
+.btn-link {
+  color: #212529;
+}
+
+.btn-link:hover {
+ color: #f5d372;
+ text-decoration: none;
+}
+
+.card {
+  background-color: #F8EEE4;
+  border: none;
+}
